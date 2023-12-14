@@ -10,5 +10,5 @@ PI = 3.14 #capital case used for constant values, still it can be changed
 print(PI)
 
 friend_age = 25 #variable names cannot start with number 
-                #cannot have any other characters other than number, letter
+                #cannot have any other characters other than number, letter and underscore
                 #called snack case 

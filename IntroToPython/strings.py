@@ -7,6 +7,11 @@ string_with_quotes = "This is a 'test string" #vice versa allowed
 
 string_with_same_quote = "Sample string contains \" character" #use escape
 
+string_with_quotes = "Hello, it's me"
+another_with_quotes = 'He said, "You were amazing" yesterday'
+yet_another_with_quotes = "Hello, it\"s me"
+yet_another_with_quotes = 'He said, \'You were amazing\' yesterday'
+
 multi_line_string = """this is a multi-line string
                       that spans over 
                       multiline comments"""
@@ -19,7 +24,7 @@ as and when required
 and it wont throw any error
 """
 
-name = "Bhushan"
+name = "Bhushan" # can use ' mark, start and end quotation should match
 greeting  = "Hello " + name
 print(greeting)
 

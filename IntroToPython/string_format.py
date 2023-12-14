@@ -13,6 +13,7 @@ print(greeting.format(name))
 
 another_greeting = "Are you all right {name}?"
 print(another_greeting.format(name="moksh")) #allows multiple params 
+print(another_greeting.format(name=name)) #also allowed and works fine 
 
 name = 'Jose'
 friend = 'Rolf'
