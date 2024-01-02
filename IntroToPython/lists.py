@@ -5,6 +5,7 @@ friend = ['bhushan', 'anuja', 'moksh'] #list or array
 but friend = ['bhushan',3, 'anuja'] is valid/allowed"""
 
 print(friend[0])
+#print(friend[4]) //index out of range
 
 print(len(friend)) #print length of the list/array
 friend.append('sample') #append new element to the list/array
